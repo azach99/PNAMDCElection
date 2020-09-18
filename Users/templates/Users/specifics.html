@@ -1,0 +1,40 @@
+{% extends "Submission/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+            <h3>First Name</h3>
+            <p style = "word-wrap: break-word">{{ object.first_name }}</p>
+            <h3>Last Name</h3>
+            <p style = "word-wrap: break-word">{{ object.last_name }}</p>
+            <h3>Email</h3>
+            <p style = "word-wrap: break-word">{{ object.email }}</p>
+            <h3>Phone Number</h3>
+            <p style = "word-wrap: break-word">{{ object.phone_number }}</p>
+            <h3>President Elect</h3>
+            <p style = "word-wrap: break-word">{{ object.question_1 }}</p>
+            <h3>Recording Secretary</h3>
+            <p style = "word-wrap: break-word">{{ object.question_2 }}</p>
+            <h3>Assistant Recording Secretary</h3>
+            <p style = "word-wrap: break-word">{{ object.question_3 }}</p>
+            <h3>Corresponding Secretary</h3>
+            <p style = "word-wrap: break-word">{{ object.question_6 }}</p>
+            <h3>Assistant Corresponding Secretary</h3>
+            <p style = "word-wrap: break-word">{{ object.question_7 }}</p>
+            <h3>Treasurer</h3>
+            <p style = "word-wrap: break-word">{{ object.question_8 }}</p>
+            <h3>Assistant Treasurer</h3>
+            <p style = "word-wrap: break-word">{{ object.question_9 }}</p>
+            <h3>Auditor</h3>
+            <p style = "word-wrap: break-word">{{ object.question_10 }}</p>
+            <h3>Public Relations Officers</h3>
+            {% for name in object.question_4 %}
+                <p style = "word-wrap: break-word">{{ name }}</p>
+            {% endfor %}
+            <h3>Board of Directors</h3>
+            {% for name in object.question_5 %}
+                <p style = "word-wrap: break-word">{{ name }}</p>
+            {% endfor %}
+
+    </div>
+
+{% endblock content %}

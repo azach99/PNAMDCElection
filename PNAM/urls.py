@@ -26,5 +26,6 @@ urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(template_name = 'Users/logout.html'), name = 'logout'),
     path('submission/', Users_views.submission, name = 'submission'),
     path('list_subs/', include('Users.urls'), name = 'list'),
+    path('faq/', Users_views.faq, name = 'faq'),
     path('results/', Users_views.results, name = 'results')
 ]

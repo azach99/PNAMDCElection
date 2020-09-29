@@ -21,6 +21,9 @@ def register(request):
         form = UserRegisterForm()
     return render(request, 'Users/register.html', {'form': form})
 
+def faq(request):
+    return render(request, 'Users/faq.html')
+
 def disable_register(request):
     messages.warning(request, "Registrations are Disabled at this Time")
     return redirect('Submission-home')
@@ -135,89 +138,66 @@ def results(request):
             h = user.question_8
             i = user.question_9
             j = user.question_10
-            if str(a) == str("Kanye West"):
+            if str(a) == str("Christine Pabico"):
                 question_1[0] = question_1[0] + 1
-            elif str(a) == str("Joe Biden"):
+            elif str(a) == str("Abstain"):
                 question_1[1] = question_1[1] + 1
-            elif str(a) == str("Donald Trump"):
-                question_1[2] = question_1[2] + 1
 
-            if str(b) == str("Rodrigo Duterte"):
+            if str(b) == str("Rosabelle Dela Pena"):
                 question_2[0] = question_2[0] + 1
-            elif str(b) == str("Leni Robredo"):
+            elif str(b) == str("Abstain"):
                 question_2[1] = question_2[1] + 1
-            elif str(b) == str("Manny Pacquiao"):
-                question_2[2] = question_2[2] + 1
 
-            if str(c) == str("Sharon Cuneta"):
+            if str(c) == str("Maricon Danz"):
                 question_3[0] = question_3[0] + 1
-            elif str(c) == str("Dawn Zulueta"):
+            elif str(c) == str("Abstain"):
                 question_3[1] = question_3[1] + 1
-            elif str(c) == str("Gretchen Barreto"):
-                question_3[2] = question_3[2] + 1
 
             for ans in d:
-                if str(ans) == str("Taylor Swift"):
+                if str(ans) == str("Linda Cabacar"):
                     question_4[0] = question_4[0] + 1
-                elif str(ans) == str("Beyonce"):
+                elif str(ans) == str("Edna Guerrero"):
                     question_4[1] = question_4[1] + 1
-                elif str(ans) == str("Katy Perry"):
+                elif str(ans) == str("Lenny Icayan"):
                     question_4[2] = question_4[2] + 1
-                elif str(ans) == str("Britney Spears"):
+                elif str(ans) == str("Teresita Delima"):
                     question_4[3] = question_4[3] + 1
-                elif str(ans) == str("Christina Aguilera"):
+                elif str(ans) == str("Vicky Luceriaga"):
                     question_4[4] = question_4[4] + 1
-                elif str(ans) == str("Jennifer Lopez"):
-                    question_4[5] = question_4[5] + 1
-                elif str(ans) == str("Ariana Grande"):
-                    question_4[6] = question_4[6] + 1
-                elif str(ans) == str("P!nk"):
-                    question_4[7] = question_4[7] + 1
-
             for ans in e:
-                if str(ans) == str("Zach Amados"):
+                if str(ans) == str("Prima Colburn"):
                     question_5[0] = question_5[0] + 1
-                elif str(ans) == str("Rianna Talento"):
+                elif str(ans) == str("Aida Imperio"):
                     question_5[1] = question_5[1] + 1
-                elif str(ans) == str("Reinny Florido"):
+                elif str(ans) == str("Elsa Aquino"):
                     question_5[2] = question_5[2] + 1
-                elif str(ans) == str("Ryan Robles"):
+                elif str(ans) == str("Florina Reynoso-Ray"):
                     question_5[3] = question_5[3] + 1
+                elif str(ans) == str("Dolly Gray"):
+                    question_5[4] = question_5[4] + 1
 
-            if str(f) == str("George Washington"):
+            if str(f) == str("Amabelle Estreba"):
                 question_6[0] = question_6[0] + 1
-            elif str(f) == str("Thomas Jefferson"):
+            elif str(f) == str("Abstain"):
                 question_6[1] = question_6[1] + 1
-            elif str(f) == str("Ulysses Grant"):
-                question_6[2] = question_6[2] + 1
 
-            if str(g) == str("Sharon Cuneta"):
+            if str(g) == str("Abstain"):
                 question_7[0] = question_7[0] + 1
-            elif str(g) == str("Dawn Zulueta"):
-                question_7[1] = question_7[1] + 1
-            elif str(g) == str("Gretchen Barreto"):
-                question_7[2] = question_7[2] + 1
 
-            if str(h) == str("Barack Obama"):
+            if str(h) == str("Mizpah Amados"):
                 question_8[0] = question_8[0] + 1
-            elif str(h) == str("George Bush"):
+            elif str(h) == str("Abstain"):
                 question_8[1] = question_8[1] + 1
-            elif str(h) == str("Bill Clinton"):
-                question_8[2] = question_8[2] + 1
 
-            if str(i) == str("Mike Pence"):
+            if str(i) == str("Febes Galvez"):
                 question_9[0] = question_9[0] + 1
-            elif str(i) == str("Kamala Harris"):
+            elif str(i) == str("Abstain"):
                 question_9[1] = question_9[1] + 1
-            elif str(i) == str("Bernie Saunders"):
-                question_9[2] = question_9[2] + 1
 
-            if str(j) == str("Wolf Blitzer"):
+            if str(j) == str("Alicia Calayag"):
                 question_10[0] = question_10[0] + 1
-            elif str(j) == str("Anderson Cooper"):
+            elif str(j) == str("Abstain"):
                 question_10[1] = question_10[1] + 1
-            elif str(j) == str("Chris Cuomo"):
-                question_10[2] = question_10[2] + 1
         context = {
             'question_1': question_1,
             'question_2': question_2,

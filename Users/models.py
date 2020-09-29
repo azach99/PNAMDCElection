@@ -7,6 +7,12 @@ from django.db.models.signals import pre_save
 # Create your models here.
 
 class Subs(models.Model):
+    SELECTIONS_1 = (
+        ("Candidate A", "Candidate A"),
+        ("Candidate B", "Candidate B"),
+        ("Candidate C", "Candidate C"),
+        ("Candidate D", "Candidate D"),
+    )
     SELECTIONS_4 = (
         ("Candidate A", "Candidate A"),
         ("Candidate B", "Candidate B"),
@@ -21,63 +27,51 @@ class Subs(models.Model):
         ("Candidate 4", "Candidate 4"),
         ("Candidate 5", "Candidate 5")
     )
-    SELECTIONS = (
-        ("Choose", "Choose"),
-        ("Candidate A", "Candidate A"),
-        ("Candidate B", "Candidate B"),
-        ("Candidate C", "Candidate C"),
-        ("Candidate D", "Candidate D"),
-    )
     PRESIDENT_ELECT = (
-        ("Kanye West", "Kanye West"),
-        ("Joe Biden", "Joe Biden"),
-        ("Donald Trump", "Donald Trump"),
+        ("Christine Pabico", "Christine Pabico"),
+        ("Abstain", "Abstain"),
     )
     RECORDING_SECRETARY = (
-        ("Rodrigo Duterte", "Rodrigo Duterte"),
-        ("Leni Robredo", "Leni Robredo"),
-        ("Manny Pacquiao", "Manny Pacquiao"),
+        ("Rosabelle Dela Pena", "Rosabelle Dela Pena"),
+        ("Abstain", "Abstain"),
     )
     ASSISTANT_RECORDING_SECRETARY = (
-        ("Sharon Cuneta", "Sharon Cuneta"),
-        ("Dawn Zulueta", "Dawn Zulueta"),
-        ("Gretchen Barreto", "Gretchen Barreto"),
+        ("Maricon Danz", "Maricon Danz"),
+        ("Abstain", "Abstain"),
     )
     CORRESPONDING_SECRETARY = (
-        ("George Washington", "George Washington"),
-        ("Thomas Jefferson", "Thomas Jefferson"),
-        ("Ulysses Grant", "Ulysses Grant"),
+        ("Amabelle Estreba", "Amabelle Estreba"),
+        ("Abstain", "Abstain"),
+    )
+    ASSISTANT_CORRESPONDING_SECRETARY = (
+        ("Abstain", "Abstain"),
+        ("", ""),
     )
     TREASURER = (
-        ("Barack Obama", "Barack Obama"),
-        ("George Bush", "George Bush"),
-        ("Bill Clinton", "Bill Clinton"),
+        ("Mizpah Amados", "Mizpah Amados"),
+        ("Abstain", "Abstain"),
     )
     ASSISTANT_TREASURER = (
-        ("Mike Pence", "Mike Pence"),
-        ("Kamala Harris", "Kamala Harris"),
-        ("Bernie Saunders", "Bernie Saunders"),
+        ("Febes Galvez", "Febes Galvez"),
+        ("Abstain", "Abstain"),
     )
     AUDITOR = (
-        ("Wolf Blitzer", "Wolf Blitzer"),
-        ("Anderson Cooper", "Anderson Cooper"),
-        ("Chris Cuomo", "Chris Cuomo"),
+        ("Alicia Calayag", "Alicia Calayag"),
+        ("Abstain", "Abstain"),
     )
     PRO = (
-        ("Taylor Swift", "Taylor Swift"),
-        ("Beyonce", "Beyonce"),
-        ("Katy Perry", "Katy Perry"),
-        ("Britney Spears", "Britney Spears"),
-        ("Christina Aguilera", "Christina Aguilera"),
-        ("Jennifer Lopez", "Jennifer Lopez"),
-        ("Ariana Grande", "Ariana Grande"),
-        ("P!nk", "P!nk"),
+        ("Linda Cabacar", "Linda Cabacar"),
+        ("Edna Guerrero", "Edna Guerrero"),
+        ("Lenny Icayan", "Lenny Icayan"),
+        ("Teresita Delima", "Teresita Delima"),
+        ("Vicky Luceriaga", "Vicky Luceriaga"),
     )
     BOARD_OF_DIRECTORS = (
-        ("Zach Amados", "Zach Amados"),
-        ("Rianna Talento", "Rianna Talento"),
-        ("Reinny Florido", "Reinny Florido"),
-        ("Ryan Robles", "Ryan Robles")
+        ("Prima Colburn", "Prima Colburn"),
+        ("Aida Imperio", "Aida Imperio"),
+        ("Elsa Aquino", "Elsa Aquino"),
+        ("Florina Reynoso-Ray", "Florina Reynodo-Ray"),
+        ("Dolly Grey", "Dolly Grey"),
     )
 
     first_name = models.CharField(max_length = 100)
@@ -93,7 +87,7 @@ class Subs(models.Model):
     question_4 = MultiSelectField(choices = PRO, default = '')
     question_5 = MultiSelectField(choices = BOARD_OF_DIRECTORS, default = '')
     question_6 = models.CharField(max_length=100, default='', choices=CORRESPONDING_SECRETARY)
-    question_7 = models.CharField(max_length=100, default='', choices=ASSISTANT_RECORDING_SECRETARY)
+    question_7 = models.CharField(max_length=100, default='', choices=ASSISTANT_CORRESPONDING_SECRETARY)
     question_8 = models.CharField(max_length=100, default='', choices=TREASURER)
     question_9 = models.CharField(max_length=100, default='', choices=ASSISTANT_TREASURER)
     question_10 = models.CharField(max_length=100, default='', choices=AUDITOR)

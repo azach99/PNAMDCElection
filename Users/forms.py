@@ -35,55 +35,49 @@ class SubsForm(forms.ModelForm):
         ("Candidate 5", "Candidate 5")
     )
     PRESIDENT_ELECT = (
-        ("Kanye West", "Kanye West"),
-        ("Joe Biden", "Joe Biden"),
-        ("Donald Trump", "Donald Trump"),
+        ("Christine Pabico", "Christine Pabico"),
+        ("Abstain", "Abstain"),
     )
     RECORDING_SECRETARY = (
-        ("Rodrigo Duterte", "Rodrigo Duterte"),
-        ("Leni Robredo", "Leni Robredo"),
-        ("Manny Pacquiao", "Manny Pacquiao"),
+        ("Rosabelle Dela Pena", "Rosabelle Dela Pena"),
+        ("Abstain", "Abstain"),
     )
     ASSISTANT_RECORDING_SECRETARY = (
-        ("Sharon Cuneta", "Sharon Cuneta"),
-        ("Dawn Zulueta", "Dawn Zulueta"),
-        ("Gretchen Barreto", "Gretchen Barreto"),
+        ("Maricon Danz", "Maricon Danz"),
+        ("Abstain", "Abstain"),
     )
     CORRESPONDING_SECRETARY = (
-        ("George Washington", "George Washington"),
-        ("Thomas Jefferson", "Thomas Jefferson"),
-        ("Ulysses Grant", "Ulysses Grant"),
+        ("Amabelle Estreba", "Amabelle Estreba"),
+        ("Abstain", "Abstain"),
+    )
+    ASSISTANT_CORRESPONDING_SECRETARY = (
+        ("Abstain", "Abstain"),
     )
     TREASURER = (
-        ("Barack Obama", "Barack Obama"),
-        ("George Bush", "George Bush"),
-        ("Bill Clinton", "Bill Clinton"),
+        ("Mizpah Amados", "Mizpah Amados"),
+        ("Abstain", "Abstain"),
     )
     ASSISTANT_TREASURER = (
-        ("Mike Pence", "Mike Pence"),
-        ("Kamala Harris", "Kamala Harris"),
-        ("Bernie Saunders", "Bernie Saunders"),
+        ("Febes Galvez", "Febes Galvez"),
+        ("Abstain", "Abstain"),
     )
     AUDITOR = (
-        ("Wolf Blitzer", "Wolf Blitzer"),
-        ("Anderson Cooper", "Anderson Cooper"),
-        ("Chris Cuomo", "Chris Cuomo"),
+        ("Alicia Calayag", "Alicia Calayag"),
+        ("Abstain", "Abstain"),
     )
     PRO = (
-        ("Taylor Swift", "Taylor Swift"),
-        ("Beyonce", "Beyonce"),
-        ("Katy Perry", "Katy Perry"),
-        ("Britney Spears", "Britney Spears"),
-        ("Christina Aguilera", "Christina Aguilera"),
-        ("Jennifer Lopez", "Jennifer Lopez"),
-        ("Ariana Grande", "Ariana Grande"),
-        ("P!nk", "P!nk"),
+        ("Linda Cabacar", "Linda Cabacar"),
+        ("Edna Guerrero", "Edna Guerrero"),
+        ("Lenny Icayan", "Lenny Icayan"),
+        ("Teresita Delima", "Teresita Delima"),
+        ("Vicky Luceriaga", "Vicky Luceriaga"),
     )
     BOARD_OF_DIRECTORS = (
-        ("Zach Amados", "Zach Amados"),
-        ("Rianna Talento", "Rianna Talento"),
-        ("Reinny Florido", "Reinny Florido"),
-        ("Ryan Robles", "Ryan Robles")
+        ("Prima Colburn", "Prima Colburn"),
+        ("Aida Imperio", "Aida Imperio"),
+        ("Elsa Aquino", "Elsa Aquino"),
+        ("Florina Reynoso-Ray", "Florina Reynodo-Ray"),
+        ("Dolly Grey", "Dolly Grey"),
     )
     first_name = forms.CharField(required = True)
     last_name = forms.CharField(required = True)
@@ -95,7 +89,7 @@ class SubsForm(forms.ModelForm):
     question_4 = forms.MultipleChoiceField(label = "Public Relations Officers (Choose 7)", widget = forms.CheckboxSelectMultiple, choices = PRO)
     question_5 = forms.MultipleChoiceField(label = "Board of Directors (Choose 2)", widget=forms.CheckboxSelectMultiple, choices=BOARD_OF_DIRECTORS)
     question_6 = forms.ChoiceField(label="Corresponding Secretary", required=True, choices=CORRESPONDING_SECRETARY, widget = forms.RadioSelect)
-    question_7 = forms.ChoiceField(label = "Assistant Corresponding Secretary", required=True, choices=ASSISTANT_RECORDING_SECRETARY, widget = forms.RadioSelect)
+    question_7 = forms.ChoiceField(label = "Assistant Corresponding Secretary", required=True, choices=ASSISTANT_CORRESPONDING_SECRETARY, widget = forms.RadioSelect)
     question_8 = forms.ChoiceField(label = "Treasurer", required=True, choices=TREASURER, widget = forms.RadioSelect)
     question_9 = forms.ChoiceField(label="Assistant Treasurer", required=True, choices=ASSISTANT_TREASURER, widget = forms.RadioSelect)
     question_10 = forms.ChoiceField(label = "Auditor", required=True, choices=AUDITOR, widget = forms.RadioSelect)

@@ -8,7 +8,8 @@
         <form method = "POST" enctype = "multipart/form-data">
             {% csrf_token %}
             <fieldset class = "form-group">
-                <legend class = "border-bottom mb-4">PNAMDC Executive Officers and Board of Directors Election 2021-2023</legend>
+                <legend class = "border-bottom mb-4">PNAMDC Executive Officers and Board of Directors Election</legend>
+                <legend class = "border-bottom mb-4">2021-2023</legend>
                 {{ form|crispy }}
             </fieldset>
             <div class = "form-group">

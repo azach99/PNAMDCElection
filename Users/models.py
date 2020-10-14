@@ -44,8 +44,8 @@ class Subs(models.Model):
         ("Abstain", "Abstain"),
     )
     ASSISTANT_CORRESPONDING_SECRETARY = (
+        ("Arlyn Soriano", "Arlyn Soriano"),
         ("Abstain", "Abstain"),
-        ("", ""),
     )
     TREASURER = (
         ("Mizpah Amados", "Mizpah Amados"),
@@ -67,11 +67,17 @@ class Subs(models.Model):
         ("Vicky Luceriaga", "Vicky Luceriaga"),
     )
     BOARD_OF_DIRECTORS = (
+        ("Resurrection Jao", "Resurrection Jao"),
         ("Prima Colburn", "Prima Colburn"),
         ("Aida Imperio", "Aida Imperio"),
         ("Elsa Aquino", "Elsa Aquino"),
         ("Florina Reynoso-Ray", "Florina Reynodo-Ray"),
         ("Dolly Grey", "Dolly Grey"),
+    )
+
+    ASSISTANT_AUDITOR = (
+        ("Tess Valencia", "Tess Valencia"),
+        ("Abstain", "Abstain")
     )
 
     first_name = models.CharField(max_length = 100)
@@ -91,6 +97,7 @@ class Subs(models.Model):
     question_8 = models.CharField(max_length=100, default='', choices=TREASURER)
     question_9 = models.CharField(max_length=100, default='', choices=ASSISTANT_TREASURER)
     question_10 = models.CharField(max_length=100, default='', choices=AUDITOR)
+    question_11 = models.CharField(max_length = 100, default = '', choices = ASSISTANT_AUDITOR)
 
 def slug_generator(sender, instance, *args, **kwargs):
     if not instance.slug:

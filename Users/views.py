@@ -65,6 +65,7 @@ def submission(request):
                     'question_8': a.question_8,
                     'question_9': a.question_9,
                     'question_10': a.question_10,
+                    'question_11': a.question_11
                 })
                 context = {
                     'form': form
@@ -127,6 +128,7 @@ def results(request):
         question_8 = [0, 0, 0, 0]
         question_9 = [0, 0, 0, 0]
         question_10 = [0, 0, 0, 0]
+        question_11 = [0, 0, 0, 0]
         for user in subs_list:
             a = user.question_1
             b = user.question_2
@@ -138,6 +140,7 @@ def results(request):
             h = user.question_8
             i = user.question_9
             j = user.question_10
+            k = user.question_11
             if str(a) == str("Christine Pabico"):
                 question_1[0] = question_1[0] + 1
             elif str(a) == str("Abstain"):
@@ -175,6 +178,8 @@ def results(request):
                     question_5[3] = question_5[3] + 1
                 elif str(ans) == str("Dolly Gray"):
                     question_5[4] = question_5[4] + 1
+                elif str(ans) == str("Resurrection Jao"):
+                    question_5[5] = question_5[5] + 1
 
             if str(f) == str("Amabelle Estreba"):
                 question_6[0] = question_6[0] + 1
@@ -183,6 +188,8 @@ def results(request):
 
             if str(g) == str("Abstain"):
                 question_7[0] = question_7[0] + 1
+            elif str(g) == str("Arlyn Soriano"):
+                question_7[1] = question_7[1] + 1
 
             if str(h) == str("Mizpah Amados"):
                 question_8[0] = question_8[0] + 1
@@ -198,6 +205,11 @@ def results(request):
                 question_10[0] = question_10[0] + 1
             elif str(j) == str("Abstain"):
                 question_10[1] = question_10[1] + 1
+
+            if str(k) == str("Tess Valencia"):
+                question_11[0] = question_11[0] + 1
+            elif str(k) == str("Abstain"):
+                question_11[1] = question_11[1] + 1
         context = {
             'question_1': question_1,
             'question_2': question_2,
@@ -209,6 +221,7 @@ def results(request):
             'question_8': question_8,
             'question_9': question_9,
             'question_10': question_10,
+            'question_11': question_11,
         }
         return render(request, "Users/results.html", context)
     else:

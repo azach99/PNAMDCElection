@@ -51,6 +51,7 @@ class SubsForm(forms.ModelForm):
         ("Abstain", "Abstain"),
     )
     ASSISTANT_CORRESPONDING_SECRETARY = (
+        ("Arlyn Soriano", "Arlyn Soriano"),
         ("Abstain", "Abstain"),
     )
     TREASURER = (
@@ -73,11 +74,16 @@ class SubsForm(forms.ModelForm):
         ("Vicky Luceriaga", "Vicky Luceriaga"),
     )
     BOARD_OF_DIRECTORS = (
+        ("Resurrection Jao", "Resurrection Jao"),
         ("Prima Colburn", "Prima Colburn"),
         ("Aida Imperio", "Aida Imperio"),
         ("Elsa Aquino", "Elsa Aquino"),
         ("Florina Reynoso-Ray", "Florina Reynodo-Ray"),
         ("Dolly Grey", "Dolly Grey"),
+    )
+    ASSISTANT_AUDITOR = (
+        ("Tess Valencia", "Tess Valencia"),
+        ("Abstain", "Abstain")
     )
     first_name = forms.CharField(required = True)
     last_name = forms.CharField(required = True)
@@ -93,6 +99,7 @@ class SubsForm(forms.ModelForm):
     question_8 = forms.ChoiceField(label = "Treasurer", required=True, choices=TREASURER, widget = forms.RadioSelect)
     question_9 = forms.ChoiceField(label="Assistant Treasurer", required=True, choices=ASSISTANT_TREASURER, widget = forms.RadioSelect)
     question_10 = forms.ChoiceField(label = "Auditor", required=True, choices=AUDITOR, widget = forms.RadioSelect)
+    question_11 = forms.ChoiceField(label = "Assistant Auditor", required = True, choices = ASSISTANT_AUDITOR, widget = forms.RadioSelect)
 
     def verify_num(self):
         value = self.cleaned_data['question_4']
@@ -105,4 +112,4 @@ class SubsForm(forms.ModelForm):
         fields = ['first_name', 'last_name', 'email',
                  'question_1', 'question_2', 'question_3',
                  'question_6', 'question_7', 'question_8', 'question_9',
-                 'question_10', 'question_4', 'question_5']
+                 'question_10', 'question_11', 'question_4', 'question_5']

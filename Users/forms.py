@@ -72,6 +72,7 @@ class SubsForm(forms.ModelForm):
         ("Lenny Icayan", "Lenny Icayan"),
         ("Teresita Delima", "Teresita Delima"),
         ("Vicky Luceriaga", "Vicky Luceriaga"),
+        ("Abstain", "Abstain")
     )
     BOARD_OF_DIRECTORS = (
         ("Resurrection Jao", "Resurrection Jao"),
@@ -79,7 +80,7 @@ class SubsForm(forms.ModelForm):
         ("Aida Imperio", "Aida Imperio"),
         ("Elsa Aquino", "Elsa Aquino"),
         ("Florina Reynoso-Ray", "Florina Reynodo-Ray"),
-        ("Dolly Grey", "Dolly Grey"),
+        ("Abstain", "Abstain"),
     )
     ASSISTANT_AUDITOR = (
         ("Tess Valencia", "Tess Valencia"),

@@ -167,6 +167,8 @@ def results(request):
                     question_4[3] = question_4[3] + 1
                 elif str(ans) == str("Vicky Luceriaga"):
                     question_4[4] = question_4[4] + 1
+                elif str(ans) == str("Abstain"):
+                    question_4[5] = question_4[5] + 1
             for ans in e:
                 if str(ans) == str("Prima Colburn"):
                     question_5[0] = question_5[0] + 1
@@ -176,7 +178,7 @@ def results(request):
                     question_5[2] = question_5[2] + 1
                 elif str(ans) == str("Florina Reynoso-Ray"):
                     question_5[3] = question_5[3] + 1
-                elif str(ans) == str("Dolly Gray"):
+                elif str(ans) == str("Abstain"):
                     question_5[4] = question_5[4] + 1
                 elif str(ans) == str("Resurrection Jao"):
                     question_5[5] = question_5[5] + 1

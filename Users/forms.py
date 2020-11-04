@@ -75,11 +75,11 @@ class SubsForm(forms.ModelForm):
         ("Abstain", "Abstain")
     )
     BOARD_OF_DIRECTORS = (
-        ("Resurrection Jao", "Resurrection Jao"),
+        ("Resurreccion Jao", "Resurreccion Jao"),
         ("Prima Colburn", "Prima Colburn"),
         ("Aida Imperio", "Aida Imperio"),
         ("Elsa Aquino", "Elsa Aquino"),
-        ("Florina Reynoso-Ray", "Florina Reynodo-Ray"),
+        ("Florina Reynoso-Ray", "Florina Reynoco-Ray"),
         ("Abstain", "Abstain"),
     )
     ASSISTANT_AUDITOR = (

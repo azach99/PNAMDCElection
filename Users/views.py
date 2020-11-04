@@ -180,7 +180,7 @@ def results(request):
                     question_5[3] = question_5[3] + 1
                 elif str(ans) == str("Abstain"):
                     question_5[4] = question_5[4] + 1
-                elif str(ans) == str("Resurrection Jao"):
+                elif str(ans) == str("Resurreccion Jao"):
                     question_5[5] = question_5[5] + 1
 
             if str(f) == str("Amabelle Estreba"):

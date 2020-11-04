@@ -68,11 +68,11 @@ class Subs(models.Model):
         ("Abstain", "Abstain")
     )
     BOARD_OF_DIRECTORS = (
-        ("Resurrection Jao", "Resurrection Jao"),
+        ("Resurreccion Jao", "Resurrecction Jao"),
         ("Prima Colburn", "Prima Colburn"),
         ("Aida Imperio", "Aida Imperio"),
         ("Elsa Aquino", "Elsa Aquino"),
-        ("Florina Reynoso-Ray", "Florina Reynodo-Ray"),
+        ("Florina Reynoso-Ray", "Florina Reynoso-Ray"),
         ("Abstain", "Abstain"),
     )
 

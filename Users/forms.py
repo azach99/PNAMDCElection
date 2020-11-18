@@ -79,7 +79,7 @@ class SubsForm(forms.ModelForm):
         ("Prima Colburn", "Prima Colburn"),
         ("Aida Imperio", "Aida Imperio"),
         ("Elsa Aquino", "Elsa Aquino"),
-        ("Florina Reynoso-Ray", "Florina Reynoco-Ray"),
+        ("Florina Reynoso-Ray", "Florina Reynoso-Ray"),
         ("Abstain", "Abstain"),
     )
     ASSISTANT_AUDITOR = (

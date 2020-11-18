@@ -1,0 +1,507 @@
+Voter: John Doe
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Board of Directors:
+	Resurrection Jao
+	Prima Colburn
+Voter: Jay Dans
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Abstain
+	Board of Directors:
+	Abstain
+Voter: Maricon Dans
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Aida Imperio
+	Florina Reynoso-Ray
+Voter: Violeta Imperio
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Abstain
+	Board of Directors:
+	Aida Imperio
+	Florina Reynoso-Ray
+Voter: Mizpah Amados
+	President Elect: Christine Pabico
+	Recording Secretary: Abstain
+	Assistant Recording Secretary: Abstain
+	Corresponding Secretary: Abstain
+	Assistant Corresponding Secretary: Abstain
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Abstain
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Lenny Icayan
+	Vicky Luceriaga
+	Board of Directors:
+	Aida Imperio
+Voter: Cherry Maliksi
+	President Elect: Christine Pabico
+	Recording Secretary: Abstain
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Abstain
+	Assistant Corresponding Secretary: Abstain
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Abstain
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Abstain
+	Board of Directors:
+	Prima Colburn
+	Abstain
+Voter: Lourdes Careaga
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Abstain
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Christine Pabico
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Board of Directors:
+	Aida Imperio
+	Florina Reynoso-Ray
+Voter: Lisa Keegan
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Abstain
+	Treasurer: Abstain
+	Assistant Treasurer: Abstain
+	Auditor: Abstain
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Abstain
+Voter: Aida Imperio
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Prima Colburn
+	President Elect: Abstain
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Florina Reynoso-Ray
+Voter: Warlinda Cabacar
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Abstain
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Lourdes Florido
+	President Elect: Abstain
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Abstain
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Resurreccion Jao
+	Prima Colburn
+Voter: Myrna Joy Arellano
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Rosabella de la Pena
+	President Elect: Abstain
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Resurreccion Jao
+	Aida Imperio
+Voter: Emma de la Rosa
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Febes Galvez
+	President Elect: Abstain
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Diana Comiso
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Antonieta Tayamen
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Resurreccion Jao
+	Prima Colburn
+Voter: Althea Rada
+	President Elect: Abstain
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Abstain
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Board of Directors:
+	Resurreccion Jao
+Voter: Florina Reynoso-Ray
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Lenny Icayan
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Florina Reynoso-Ray
+Voter: Leonicia Icayan
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Florina Reynoso-Ray
+Voter: Alice Andam
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Resurreccion Jao
+	Aida Imperio
+Voter: Vivian Sola
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Florina Reynoso-Ray
+Voter: Amabelle Estreba
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Aida Imperio
+	Florina Reynoso-Ray
+Voter: Victoria Luceriaga
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Edna Guerrero
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio
+Voter: Edna Guerrero
+	President Elect: Christine Pabico
+	Recording Secretary: Rosabelle Dela Pena
+	Assistant Recording Secretary: Maricon Danz
+	Corresponding Secretary: Amabelle Estreba
+	Assistant Corresponding Secretary: Arlyn Soriano
+	Treasurer: Mizpah Amados
+	Assistant Treasurer: Febes Galvez
+	Auditor: Alicia Calayag
+	Assistant Auditor: 
+	PRO
+	Linda Cabacar
+	Edna Guerrero
+	Lenny Icayan
+	Teresita Delima
+	Vicky Luceriaga
+	Board of Directors:
+	Prima Colburn
+	Aida Imperio

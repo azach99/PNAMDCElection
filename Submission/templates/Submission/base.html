@@ -29,14 +29,8 @@
                   <li class="nav-item">
                     <a class="nav-link" href="{% url 'login' %}">Login</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="{% url 'register' %}">Register</a>
-                  </li>
             {% else %}
                 {% if user.email == "admin_user@gmail.com" %}
-                    <li class="nav-item">
-                    <a class="nav-link" href="{% url 'Users-list' %}">View Individual Votes</a>
-                  </li>
                      <li class="nav-item">
                     <a class="nav-link" href="{% url 'results' %}">Results</a>
                   </li>

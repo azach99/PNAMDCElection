@@ -9,10 +9,10 @@ with open ('output.txt', 'w') as f:
 		f.write('\t' + 'Treasurer: ' + a.question_8 +'\n')
 		f.write('\t' + 'Assistant Treasurer: ' + a.question_9 + '\n')
 		f.write('\t' + 'Auditor: ' + a.question_10 + '\n')
-		f.write('\t' + 'Assistant Auditor: ' + '\n')
+		f.write('\t' + 'Assistant Auditor: ' + a.question_11 + '\n')
 		f.write('\t' + 'PRO' + '\n')
 		for b in a.question_4:
-			f.write('\t' + b + '\n')
+			f.write('\t' + '\t' + b + '\n')
 		f.write('\t' + 'Board of Directors:' + '\n')
 		for c in a.question_5:
-			f.write('\t' + c + '\n')
+			f.write('\t' + '\t' + c + '\n')
